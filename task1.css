@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-image: url(suzuki\ image1.jpg);
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    color: brown;
+    background-color: cornsilk;
+}
+h3{
+    color: brown;
+    background-color: cornsilk;
+}
+p{
+   display: block;
+   margin-block-start: oem;
+   margin-block-end: 0em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   flex-wrap: wrap;
+}
+.firstsection{
+    height: 100vh;   
+}
+.box-main{
+    display: block;
+    color: lavender;
+}
+.firsthalf{
+    width: 80%;
+    display: block;
+    flex-direction: column;
+}
+.text-big{
+    font-size: 45px;
+    color: rgb(236, 116, 20);
+    margin-left: 7pc;
+    font-style:initial;
+}
+.text-medium{
+    font-size:32px ;
+    margin-left: 2pc;
+}
+.text-s{
+    font-size: 32px;
+    margin-left: 8pc;
+}
+.text-small{
+    font-size: 30px;
+    color: rgb(236,116,20);
+    margin-left: 8pc;
+}
+.mainsection h4{
+    color: rgb(119, 6, 25);
+    font-size: 20px;
+    background-color: darkseagreen;
+  
+}
+.para1{
+    font-size: 20px;
+    background-color: cornsilk;
+}
+.images{
+    background-color: cornsilk;
+}
+.para2{
+    font-size: 20px;
+    background-color:cornsilk;
+}
+.buttons{
+    background-color: darkseagreen;
+}
+.btn{
+    text-decoration: none;
+    color: rgb(13, 1, 65);
+    padding: 5px 20px;
+    border: 3px solid rgb(37, 2, 32);
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:black;
+    color:white;
+}
+ul{
+    float: right;
+    list-style-type: none;   
+    margin-top: 10px; 
+}
+ul li{
+    display: inline-block;   
+}
+ul li a{
+    text-decoration:none ;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+    margin-right: 1pc;
+}
+ul li a:hover{
+    background-color:rgb(226, 240, 240);
+    color: black;
+
+}
+img{
+    height: 50vh;
+    width: 31pc;
+}
+#contact{
+    position: relative;
+}
+.h-contact{
+    margin-left: 43pc;
+    font-size: 30px;
+}
+#contact{
+    background-image:linear-gradient(rgba(250, 231, 231, 0.5),rgba(250, 231, 231, 0.5)), url(image5.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-image: center;
+}
+#contact::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+#contact-box form{
+    width: 25%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
